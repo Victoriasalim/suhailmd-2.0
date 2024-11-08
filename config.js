@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "© SuhailTechInfo"
 
 global.devs = "" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254746314005";
 
 
 
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.verce
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID  || ""  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID  || "254746314005"  // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -77,7 +77,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  ownername:process.env.OWNER_NAME|| "Hacky Salim ",
 
 
   errorChat : process.env.ERROR_CHAT || "",
